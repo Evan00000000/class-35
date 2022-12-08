@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyAjMJWPFco1iHnyKdbsmxfDSjUPS-ye9sU",
+        authDomain: "synchronizedball-ba179.firebaseapp.com",
+        databaseURL: "https://synchronizedball-ba179-default-rtdb.firebaseio.com",
+        projectId: "synchronizedball-ba179",
+        storageBucket: "synchronizedball-ba179.appspot.com",
+        messagingSenderId: "587749411963",
+        appId: "1:587749411963:web:a48d3b67ad3f5ee14ba6de"
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  </body>
+</html>
